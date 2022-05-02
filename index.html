@@ -16,36 +16,45 @@
           padding: 20px;
         }
         body {
-          padding: 40px;
-          margin: 30px;
+          padding:40px;
+          margin:30px;
         }
        .black {
            color: black;
        }
+       .bg {
+          background-image: url("https://storage.googleapis.com/pod_public/1300/121011.jpg");
+          height: 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
         </style>
         
         <title>Music</title>
     </head>
-    <body>
+    <body class="bg">
         <!-- HTML -->
         
         <!-- NavBar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2E3047;">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Music</a>
+            <a class="navbar-brand" href="#">Music
+             <img src="" alt="" width="30" height="24">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Part One</a>
+                  <a class="nav-link active" aria-current="page" href="#">Past</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Part Two</a>
+                  <a class="nav-link" href="#">Present</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Ending</a>
+                  <a class="nav-link" href="#">Future</a>
                 </li>
               </ul>
             </div>
@@ -55,10 +64,12 @@
         <!-- Image & Description -->
        
        <!--Paragraph-->
-      <div class="center">
-       <h1></h1>
-       <p>A description of what my design is and how it is useful.</p>
-      </div>
+       <h1>Music In The Past!</h1>
+       <p></p>
+      
+      
+      
+      <h1>Music In The Future!</h1>
       <u><p>What is MADMP?</p></u>
        <p>MADMP is a mini musical projector, it is able to clip onto any instrument and will display a set of notes to help you learn different songs to play. This tiny device is very useful for beginners and can help when just starting out. Learning new songs will come at ease by using the MADMP, with its projection of notes it helps you hit the right notes just by lighting it up.Thus resulting in you to remember which key notes to hit and you can continue learning even more songs.</p>
       
@@ -78,28 +89,9 @@
          <li>Gallery: The gallery allows you to see other songs people have created and the steps they used to create it in case you wanted a tutorial for a certain song.</li>
          <li>Home: The home button is where you can set up your profile so that other MADMP users know who you are and what songs you made. :)</li>
        </ul>
-       <!-- Carousel -->
+      
        
-       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="IMG_0935.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="IMG_0936.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-       </div>
-       
-       <!-- navbar -->
-       <div class="black">
-       </div>
-       
-       <!-- Part 2 -->
-       
-       <div class="center">
-         
-       </div>
+      
        
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
             <script src="script.js"></script>
