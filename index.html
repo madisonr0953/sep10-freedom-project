@@ -8,12 +8,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
         <style>
             /* CSS */
         .center {
-          text-align: center;
-          border-style: inset;
-          padding: 20px;
+          border-style: round;
+          padding: 5px;
+          border-color: white;
         }
         body {
           padding:40px;
@@ -32,6 +33,18 @@
         .green{
           background-color: #71C0A7;
         }
+        .text {
+          font-family: 'Koulen', cursive;
+        }
+        .sizing {
+          font-size: 50px;
+        }
+        .sizing2 {
+          font-size: 20px;
+        }
+        .sizing3 {
+          font-size: 20px;
+        }
         </style>
         
         <title>Music</title>
@@ -43,18 +56,18 @@
         
         <nav class="navbar navbar-expand-lg" style="background-color: #71C0A7;">
           <div class="container-fluid">
-            <a class="navbar-brand white" href="#">Music
+            <a class="navbar-brand white text sizing" href="#">Music
             </a>
              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle white text" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Dropdown
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Past</a></li>
-                    <li><a class="dropdown-item" href="#">Present</a></li>
-                    <li><a class="dropdown-item" href="#">Future Idea</a></li>
+                    <li><a class="dropdown-item" href="#past">Past</a></li>
+                    <li><a class="dropdown-item" href="#present">Present</a></li>
+                    <li><a class="dropdown-item" href="#future">Future Idea</a></li>
                   </ul>
                 </li>
               </ul>
@@ -73,18 +86,15 @@
             <div class="carousel-item">
               <img src="https://storage.googleapis.com/stateless-campfire-pictures/2019/07/4fd38400-huawei-p30-pro-usual-macro-photography-vaporwave-aesthetic-music-01.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item">
-              <img src="" class="d-block w-100" alt="...">
-            </div>
           </div>
         </div>
         
        <!-- Collapse -->
         <p>
-          <a class="btn btn-primary green" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Past</a>
-          <button class="btn btn-primary green" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Present</button>
+          <a class="btn btn-primary green text" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Past</a>
+          <button class="btn btn-primary green text" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Present</button>
         </p>
-        <div class="row">
+        <div class="row" id="past">
           <div class="col">
             <div class="collapse multi-collapse" id="multiCollapseExample1">
               <div class="card card-body">
@@ -92,7 +102,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-sm-6">
             <div class="collapse multi-collapse" id="multiCollapseExample2">
               <div class="card card-body">
                 Music now has many different meanings to it, it's usually based of a person culture, religion or experience. Music now is made for specific people/ groups and it now has vast genres today compared to back then. With technological advancments in the music industry we are able to produce more sounds previously unatainable, and music can be heard everywhere even on the go.
@@ -100,18 +110,19 @@
             </div>
           </div>
         </div>
+        
        <!--Paragraph-->
-      <div class="white">
-        <h1>Music In The Future!</h1>
-        <u><p>What is MADMP?</p></u>
-         <p>MADMP is a mini musical projector, it is able to clip onto any instrument and will display a set of notes to help you learn different songs to play. This tiny device is very useful for beginners and can help when just starting out. Learning new songs will come at ease by using the MADMP, with its projection of notes it helps you hit the right notes just by lighting it up.Thus resulting in you to remember which key notes to hit and you can continue learning even more songs.</p>
+      <div class="white center" id="present">
+        <h1 class="text" id="future">Music In The Future!</h1>
+        <u><p class="text sizing3">What is MADMP?</p></u>
+         <p class="sizing2">MADMP is a mini musical projector, it is able to clip onto any instrument and will display a set of notes to help you learn different songs to play. This tiny device is very useful for beginners and can help when just starting out. Learning new songs will come at ease by using the MADMP, with its projection of notes it helps you hit the right notes just by lighting it up.Thus resulting in you to remember which key notes to hit and you can continue learning even more songs.</p>
         
-        <u><p>How is it useful?</p></u>
-         <p>This projector is useful because it helps give a better understanding of what keys are what and the notes that are needed to be hit for each specific song.Starting off as a beginner can be tough sometimes because when I use to play the piano I had difficulty remembering each key and sometimes certain parts of a song will cause me trouble and I would get lost when playing together with the class. However with this product it will help you understand which notes to hit and lets say you have trouble with understanding what c is or e, you can have the projector read out the keys you play that way you can learn the sound of each key. All you have to do to activate voice control is by pressing the microphone button and it will instantly come on.</p>
+        <u><p class="text sizing3">How is it useful?</p></u>
+         <p class="sizing2">This projector is useful because it helps give a better understanding of what keys are what and the notes that are needed to be hit for each specific song.Starting off as a beginner can be tough sometimes because when I use to play the piano I had difficulty remembering each key and sometimes certain parts of a song will cause me trouble and I would get lost when playing together with the class. However with this product it will help you understand which notes to hit and lets say you have trouble with understanding what c is or e, you can have the projector read out the keys you play that way you can learn the sound of each key. All you have to do to activate voice control is by pressing the microphone button and it will instantly come on.</p>
         
-        <u><p>What are the components?</p></u>
-         <p>The components of MADMP is it has a menu with nine different buttons.</p>
-         <ul>
+        <u><p class="text sizing3">What are the components?</p></u>
+         <p class="sizing2">The components of MADMP is it has a menu with nine different buttons.</p>
+         <ul class="sizing2">
            <li>Settings: The settings button is where you can change the brightness of the projector, in case it's too bright. You are also able to adjust the language for the voice in case you want it to be in a different language. Lastly you are able to change the volume of the voice.</li>
            <li>Microphone: The microphone is what activates the voice to talk and read you the keys that you pressed.</li>
            <li>Help: The help button can help you answer any questions you have, when pressed you will be given a list where you can pick what you need help with or you can ask a question in the other button.</li>
