@@ -12,9 +12,10 @@
         <style>
             /* CSS */
         .center {
-          border-style: round;
-          padding: 5px;
-          border-color: white;
+          border-radius: 25px;
+          border: 2px solid #FFFFFF;
+          padding: 20px;
+          margin: 20px;
         }
         body {
           padding:40px;
@@ -44,6 +45,9 @@
         }
         .sizing3 {
           font-size: 20px;
+        }
+        .middle {
+          text-align: center;
         }
         </style>
         
@@ -91,10 +95,10 @@
         
        <!-- Collapse -->
         <p>
-          <a class="btn btn-primary green text" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Past</a>
-          <button class="btn btn-primary green text" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Present</button>
+          <a class="btn btn-primary green text" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" id="past">Past</a>
+          <button class="btn btn-primary green text" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2" id="present">Present</button>
         </p>
-        <div class="row" id="past">
+        <div class="row">
           <div class="col">
             <div class="collapse multi-collapse" id="multiCollapseExample1">
               <div class="card card-body">
@@ -112,18 +116,20 @@
         </div>
         
        <!--Paragraph-->
-      <div class="white center" id="present">
-        <h1 class="text" id="future">Music In The Future!</h1>
-        <u><p class="text sizing3">What is MADMP?</p></u>
+      <div class="center">
+      <div class="white">
+        <h1 class="text middle" id="future">Music In The Future!</h1>
+        <u><p class="text sizing3 middle">What is MADMP?</p></u>
          <p class="sizing2">MADMP is a mini musical projector, it is able to clip onto any instrument and will display a set of notes to help you learn different songs to play. This tiny device is very useful for beginners and can help when just starting out. Learning new songs will come at ease by using the MADMP, with its projection of notes it helps you hit the right notes just by lighting it up.Thus resulting in you to remember which key notes to hit and you can continue learning even more songs.</p>
         
-        <u><p class="text sizing3">How is it useful?</p></u>
+        <u><p class="text sizing3 middle">How is it useful?</p></u>
          <p class="sizing2">This projector is useful because it helps give a better understanding of what keys are what and the notes that are needed to be hit for each specific song.Starting off as a beginner can be tough sometimes because when I use to play the piano I had difficulty remembering each key and sometimes certain parts of a song will cause me trouble and I would get lost when playing together with the class. However with this product it will help you understand which notes to hit and lets say you have trouble with understanding what c is or e, you can have the projector read out the keys you play that way you can learn the sound of each key. All you have to do to activate voice control is by pressing the microphone button and it will instantly come on.</p>
         
-        <u><p class="text sizing3">What are the components?</p></u>
+        <u><p class="text sizing3 middle">What are the components?</p></u>
          <p class="sizing2">The components of MADMP is it has a menu with nine different buttons.</p>
          <ul class="sizing2">
-           <li>Settings: The settings button is where you can change the brightness of the projector, in case it's too bright. You are also able to adjust the language for the voice in case you want it to be in a different language. Lastly you are able to change the volume of the voice.</li>
+           <li>Settings: The settings button is where you can change the brightness of the projector, in case it's too bright. You are also able to adjust the language for the voice in case you want it to be in a different 
+           <li>language: Lastly you are able to change the volume of the voice.</li>
            <li>Microphone: The microphone is what activates the voice to talk and read you the keys that you pressed.</li>
            <li>Help: The help button can help you answer any questions you have, when pressed you will be given a list where you can pick what you need help with or you can ask a question in the other button.</li>
            <li>Songs: The songs button is where you will be able to get different songs to play. You can download songs from the search button as well.</li>
@@ -134,7 +140,7 @@
            <li>Home: The home button is where you can set up your profile so that other MADMP users know who you are and what songs you made. :)</li>
          </ul>
       </div>
-       
+      </div> 
       
        
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
