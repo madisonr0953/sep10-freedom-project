@@ -9,6 +9,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+        
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        
         <style>
             /* CSS */
         .center {
@@ -79,7 +82,6 @@
           </div>
         </nav>
        
-       
        <!-- Image & Description -->
        <!-- carousel -->
        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -139,6 +141,24 @@
            <li>Gallery: The gallery allows you to see other songs people have created and the steps they used to create it in case you wanted a tutorial for a certain song.</li>
            <li>Home: The home button is where you can set up your profile so that other MADMP users know who you are and what songs you made. :)</li>
          </ul>
+         <div id="myEmbeddedScene">
+          <a-scene embedded>
+           <iframe allowfullscreen="yes" allowvr="yes"></iframe>
+           <a-assets>
+            <img id="city" src="https://img.republicworld.com/republic-prod/stories/promolarge/xhdpi/tulpxazs354kglcp_1592630881.jpeg">
+              <img id="https://assets.ltkcontent.com/images/classical-music-violin.jpg">
+           </a-assets> 
+            <a-sky id="image-360" radius="10" src="#city"></a-sky>
+            <a-entity class="link"></a-entity>
+            <a-camera>
+              <a-cursor
+                id="cursor"
+                animation__click="property: scale; from: 0.1 0.1 0.1; to: 1 1 1; easing: easeInCubic; dur: 150; startEvents: click"
+                animation__clickreset="property: scale; to: 0.1 0.1 0.1; dur: 1; startEvents: animationcomplete__click"
+                animation__fusing="property: scale; from: 1 1 1; to: 0.1 0.1 0.1; easing: easeInCubic; dur: 150; startEvents: fusing"></a-cursor>
+            </a-camera>
+          </a-scene>
+        </div>
       </div>
       </div>
       </div> 
